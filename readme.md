@@ -18,7 +18,8 @@ The app includes quizzes on the following Kotlin topics to provide a thorough le
 - **Generics**: Type-safe generic programming.
 - **Coroutines**: Asynchronous programming with coroutines.
 - **Structured Concurrency**: Managing concurrent tasks effectively.
-- **Flows and Flow Operators**: Reactive programming with Kotlin Flows.
+- **Flows**: Reactive programming with Kotlin Flows.
+- **Flow Operators**: Operators for transforming and manipulating Flows.
 
 ## Features
 
