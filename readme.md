@@ -1,6 +1,6 @@
 # learn.kt
 
-**learn.kt** is an interactive Android app designed to help developers master Kotlin programming through engaging, topic-specific quizzes. Built with **Jetpack Compose** and **Firebase**, the app covers a comprehensive range of Kotlin concepts, from basics to advanced features like coroutines and flows. With features like topic-wise progress tracking, detailed quiz feedback, and a competitive leaderboard, learn.kt makes learning Kotlin both educational and fun.
+**learn.kt** is an interactive Android app designed to help developers master Kotlin programming through engaging, topic-specific quizzes. Built with **Kotlin** and **Jetpack Compose** , the app covers a comprehensive range of Kotlin concepts, from basics to advanced features like coroutines and flows. With features like topic-wise progress tracking, detailed quiz feedback, and a competitive leaderboard, learn.kt makes learning Kotlin both educational and fun.
 
 ## Covered Kotlin Topics
 
