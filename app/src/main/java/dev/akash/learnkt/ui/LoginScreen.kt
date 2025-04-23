@@ -58,7 +58,7 @@ fun LoginScreen(
                     if (result.isSuccess && result.getOrNull() != null) {
                         onLoginSuccess()
                     } else {
-                        errorMessage = result.exceptionOrNull()?.message ?: "Login failed"
+                        errorMessage = "Login failed"
                     }
                 }
             },
