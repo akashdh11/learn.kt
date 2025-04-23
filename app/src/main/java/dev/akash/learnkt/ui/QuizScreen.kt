@@ -2,6 +2,7 @@ package dev.akash.learnkt.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -190,7 +191,10 @@ fun QuestionItem(
                     question.options.forEachIndexed { index, option ->
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.padding(vertical = 4.dp)
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable { onAnswerSelected(index) }
+                                .padding(vertical = 4.dp)
                         ) {
                             RadioButton(
                                 selected = selectedAnswer == index,
@@ -204,7 +208,10 @@ fun QuestionItem(
                     listOf("False", "True").forEachIndexed { index, option ->
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.padding(vertical = 4.dp)
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable { onAnswerSelected(index) }
+                                .padding(vertical = 4.dp)
                         ) {
                             RadioButton(
                                 selected = selectedAnswer == index,
